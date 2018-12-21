@@ -1,5 +1,5 @@
-import express from "express";
-import Car from "../models/cars";
+const express = require("express")
+
 var ctrlCar = require("../controllers/ctrlCar.js");
 
 const router = express.Router(); 

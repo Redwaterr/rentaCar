@@ -9,4 +9,4 @@ let carSchema = Schema(
     yil:{type:Number}
 });
 
-export default mongoose.model("cars",carSchema);
+module.exports = mongoose.model("cars",carSchema);

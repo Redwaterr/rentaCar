@@ -1,4 +1,4 @@
-import Car from "../models/cars";
+const Car = require("../models/cars");
 
 const arabalarıListele = function(req,res) {
     Car.find().then((err,cars) => {
